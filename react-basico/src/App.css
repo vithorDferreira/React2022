@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  padding: 30px;
+  margin: 80px;
+
+  border: aqua;
+  border-radius: 40px;
+  border-style:  solid;
+  border-bottom-width: 20px;
+  border-top-width: 20px;
+  border-right-width:20px;
+  border-left-width: 20px;
+  
+}
+
+body{
+  background-color: rgb(196, 214, 214);
+  font-family: arial, helvetica, sans-serif;
+  font-size: 24px;
+}
+li {
+  list-style-type: none;
+}
+.BARRAHOME{
+  border-radius:  30px;
+  background-color:aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.butt{
+  padding: 30px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.Home{
+    border: none;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(35, 68, 150);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.Sobre{
+  border: none;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(35, 68, 150);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.Contato{
+  border: none;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(35, 68, 150);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.foto{
+  padding: 20px;
+  border-radius: 110px;
+}
+@import 'bootstrap/dist/css/bootstrap.min.css';
